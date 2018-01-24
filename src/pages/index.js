@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
+import Form from "../components/Form";
 
 const IndexPage = () => (
   <div>
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <p>
       If you have any trouble, ask your instructor, or do some pair programming!
     </p>
+    <Form />
     <Link to="/what_to_do/">Gimme the challenge!</Link>
   </div>
 );

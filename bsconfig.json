@@ -1,0 +1,19 @@
+{
+  "name": "reason-workshop-gatsby",
+  "version": "0.1.0",
+  "reason": { "react-jsx": 2 },
+  "refmt": 3,
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".js",
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"]
+}
