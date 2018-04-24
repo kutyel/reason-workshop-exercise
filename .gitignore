@@ -8,3 +8,7 @@ public/
 yarn-error.log
 .merlin
 lib/
+.bsb.lock
+
+src/pages/exercise.js
+src/components/colorSquare2.js

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import expectedOutput from "./step1_expected.png";
 
-import ColorSquare from "../components/colorSquare";
+import ColorSquare from "../components/ColorSquare2";
 
 let testCases = [
   { color: "green", size: 120 },
